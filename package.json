@@ -2,6 +2,7 @@
   "name": "tamandu-cli-docs",
   "type": "module",
   "version": "1.0.0",
+  "packageManager": "pnpm@10.26.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -13,5 +14,11 @@
     "@astrojs/starlight": "^0.40.0",
     "astro": "^6.4.5",
     "sharp": "^0.34.5"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp"
+    ]
   }
 }

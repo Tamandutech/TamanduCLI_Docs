@@ -8,7 +8,7 @@ export default defineConfig({
   base: '/TamanduCLI_Docs',
   integrations: [
     starlight({
-      title: 'Documentação TamanduCLI',
+      title: 'TamanduCLI Docs',
       social: [
         {
           icon: 'github',

@@ -216,7 +216,7 @@ bool parseInt(const char* s, int& out)
 
 ## 📄 `parseSegment`
 
-**Faz parse** de um segmento wire `nome(modo,role,...)` (ponto e vírgula opcional) em um [`Command`](/cpp-integration/wire-types/#-wirecommand).
+**Faz parse** de um segmento wire `nome(modo,role,...)` (ponto e vírgula opcional) em um [`Command`](/TamanduCLI_Docs/cpp-integration/wire-types/#-wirecommand).
 
 #### 📝 Sintaxe
 

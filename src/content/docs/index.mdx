@@ -1,5 +1,5 @@
 ---
-title: Bem-vindo à documentação TamanduCLI
+title: TamanduCLI Docs
 description: Documentação do TamanduCLI para integração de firmware e protocolo wire.
 template: splash # Remova ou comente esta linha para exibir a barra lateral nesta página.
 hero:
@@ -8,15 +8,11 @@ hero:
     file: ../../assets/houston.webp
   actions:
     - text: Integração C++
-      link: /cpp-integration/overview/
+      link: /TamanduCLI_Docs/cpp-integration/overview/
       icon: right-arrow
     - text: Primeiros passos
-      link: /cpp-integration/getting-started/
+      link: /TamanduCLI_Docs/cpp-integration/getting-started/
       icon: right-arrow
-    - text: Documentação Starlight
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
@@ -25,18 +21,12 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 
 <CardGrid stagger>
 	<Card title="Integração C++" icon="pencil">
-		Leia a [visão geral da integração C++](/cpp-integration/overview/) para entender os namespaces `wire` e `cli`.
+		Leia a [visão geral da integração C++](/TamanduCLI_Docs/cpp-integration/overview/) para entender os namespaces `wire` e `cli`.
 	</Card>
 	<Card title="Primeiros passos" icon="document">
 		Configure `pushMessage`, registre handlers e processe mensagens BLE recebidas.
 	</Card>
 	<Card title="Referência da API" icon="add-document">
-		Consulte a documentação de [`wire::Protocol`](/cpp-integration/wire-protocol/) e [`cli::CliMap`](/cpp-integration/cli-map/).
-	</Card>
-	<Card title="Configurar o site" icon="setting">
-		Edite a `sidebar` e outras opções em `astro.config.mjs`.
-	</Card>
-	<Card title="Ler a documentação" icon="open-book">
-		Saiba mais na [documentação do Starlight](https://starlight.astro.build/).
+		Consulte a documentação de [`wire::Protocol`](/TamanduCLI_Docs/cpp-integration/wire-protocol/) e [`cli::CliMap`](/TamanduCLI_Docs/cpp-integration/cli-map/).
 	</Card>
 </CardGrid>

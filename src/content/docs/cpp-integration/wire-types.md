@@ -27,7 +27,7 @@ description: Constantes, Command, ListHeader e helpers de payload do WireView.
 | `argc`      | `int`                     | Total de tokens em `argv` (inclui modo e role)            |
 | `argv`      | `char[kMaxArgs][kArgCap]` | Argumentos brutos após unquote                            |
 
-Preenchido por [`parseSegment`](/cpp-integration/wire-parsing/#-parsesegment) e [`parseMessage`](/cpp-integration/wire-parsing/#-parsemessage).
+Preenchido por [`parseSegment`](/TamanduCLI_Docs/cpp-integration/wire-parsing/#-parsesegment) e [`parseMessage`](/TamanduCLI_Docs/cpp-integration/wire-parsing/#-parsemessage).
 
 ---
 
@@ -42,7 +42,7 @@ Preenchido por [`parseSegment`](/cpp-integration/wire-parsing/#-parsesegment) e 
 | `B`   | Total de mensagens que compõem a lista |
 | `j`   | Índice desta mensagem (`0` … `B-1`)    |
 
-Preenchido por [`parseListHeader`](/cpp-integration/wire-parsing/#-parselistheader).
+Preenchido por [`parseListHeader`](/TamanduCLI_Docs/cpp-integration/wire-parsing/#-parselistheader).
 
 ---
 

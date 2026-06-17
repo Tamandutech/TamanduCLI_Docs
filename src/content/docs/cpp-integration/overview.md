@@ -43,13 +43,13 @@ Tanto `wire::Protocol<MessageSize>` quanto `cli::CliMap<MessageSize>` recebem um
 4. A cada payload BLE recebido, chame `processMessage`.
 5. Dentro dos handlers, use a referência `wire::Protocol` para `emitSingleResponse`, `emitListResponseRows`, etc.
 
-Veja [Primeiros passos](/cpp-integration/getting-started/) para um exemplo completo.
+Veja [Primeiros passos](/TamanduCLI_Docs/cpp-integration/getting-started/) para um exemplo completo.
 
 ## Mapa da documentação
 
-- [Primeiros passos](/cpp-integration/getting-started/) — configuração ponta a ponta
-- [Tipos e constantes wire](/cpp-integration/wire-types/) — `Command`, `ListHeader`, `WireView`
-- [Parse wire](/cpp-integration/wire-parsing/) — `parseMessage`, helpers de token
-- [Serialização wire](/cpp-integration/wire-serialization/) — montagem de strings wire
-- [Emissor de protocolo](/cpp-integration/wire-protocol/) — `wire::Protocol<MessageSize>`
-- [CliMap](/cpp-integration/cli-map/) — registro e despacho de comandos
+- [Primeiros passos](/TamanduCLI_Docs/cpp-integration/getting-started/) — configuração ponta a ponta
+- [Tipos e constantes wire](/TamanduCLI_Docs/cpp-integration/wire-types/) — `Command`, `ListHeader`, `WireView`
+- [Parse wire](/TamanduCLI_Docs/cpp-integration/wire-parsing/) — `parseMessage`, helpers de token
+- [Serialização wire](/TamanduCLI_Docs/cpp-integration/wire-serialization/) — montagem de strings wire
+- [Emissor de protocolo](/TamanduCLI_Docs/cpp-integration/wire-protocol/) — `wire::Protocol<MessageSize>`
+- [CliMap](/TamanduCLI_Docs/cpp-integration/cli-map/) — registro e despacho de comandos

@@ -222,7 +222,7 @@ auto seg = proto.makeListBodySegment("param_list", 's', 0, {"a", "1"});
 nome(h,role,T,C,B,j);body1;body2;...
 ```
 
-Listas longas são **divididas** usando [`kPackBudget`](/cpp-integration/wire-types/#constants). Cada mensagem final é passada a `pushMessage`.
+Listas longas são **divididas** usando [`kPackBudget`](/TamanduCLI_Docs/cpp-integration/wire-types/#constants). Cada mensagem final é passada a `pushMessage`.
 
 #### 📝 Sintaxe
 

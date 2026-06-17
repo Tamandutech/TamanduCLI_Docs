@@ -3,13 +3,13 @@ title: Serialização wire
 description: Monte tokens wire, bodies de lista e headers de lista em buffers.
 ---
 
-Helpers de baixo nível usados por [`wire::Protocol`](/cpp-integration/wire-protocol/) para montar mensagens de saída.
+Helpers de baixo nível usados por [`wire::Protocol`](/TamanduCLI_Docs/cpp-integration/wire-protocol/) para montar mensagens de saída.
 
 ---
 
 ## ➕ `appendWireToken`
 
-**Acrescenta** um token em `out`, adicionando **aspas e escapes** quando [`tokenNeedsQuotes`](/cpp-integration/wire-parsing/#-tokenneedsquotes) for `true`.
+**Acrescenta** um token em `out`, adicionando **aspas e escapes** quando [`tokenNeedsQuotes`](/TamanduCLI_Docs/cpp-integration/wire-parsing/#-tokenneedsquotes) for `true`.
 
 #### 📝 Sintaxe
 
@@ -106,7 +106,7 @@ wire::appendListHeader(buf, sizeof(buf), pos, "param_list", 's',
 
 ## 📏 `listHeaderWireBytes`
 
-**Retorna** o comprimento em bytes de um header de lista serializado (sem terminador nulo). Usado ao empacotar bodies sob [`kPackBudget`](/cpp-integration/wire-types/#constants).
+**Retorna** o comprimento em bytes de um header de lista serializado (sem terminador nulo). Usado ao empacotar bodies sob [`kPackBudget`](/TamanduCLI_Docs/cpp-integration/wire-types/#constants).
 
 #### 📝 Sintaxe
 

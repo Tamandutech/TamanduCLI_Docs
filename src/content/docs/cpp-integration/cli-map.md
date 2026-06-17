@@ -5,7 +5,7 @@ description: cli::CliMap — registre handlers de comandos e despache mensagens 
 
 ## 🗺️ `cli::CliMap<MessageSize>`
 
-**Registra** handlers de comandos e **despacha** comandos wire parseados para eles. Inclui um [`wire::Protocol<MessageSize>`](/cpp-integration/wire-protocol/) interno, repassado a cada handler para respostas.
+**Registra** handlers de comandos e **despacha** comandos wire parseados para eles. Inclui um [`wire::Protocol<MessageSize>`](/TamanduCLI_Docs/cpp-integration/wire-protocol/) interno, repassado a cada handler para respostas.
 
 ```cpp
 cli::CliMap<256> cli(pushMessage);
@@ -149,7 +149,7 @@ Retorna `nullptr` se não encontrado ou se `name` for nulo.
 
 ## 🚀 `dispatch`
 
-**Despacha** um [`Command`](/cpp-integration/wire-types/#-wirecommand) já parseado para o handler registrado.
+**Despacha** um [`Command`](/TamanduCLI_Docs/cpp-integration/wire-types/#-wirecommand) já parseado para o handler registrado.
 
 #### 📝 Sintaxe
 
@@ -157,7 +157,7 @@ Retorna `nullptr` se não encontrado ou se `name` for nulo.
 bool dispatch(const wire::Command& cmd)
 ```
 
-Constrói um [`WireView`](/cpp-integration/wire-types/#-wireview) a partir de `cmd` e chama o handler com o protocolo interno. Retorna `false` se não houver handler registrado para `cmd.name`.
+Constrói um [`WireView`](/TamanduCLI_Docs/cpp-integration/wire-types/#-wireview) a partir de `cmd` e chama o handler com o protocolo interno. Retorna `false` se não houver handler registrado para `cmd.name`.
 
 #### 🔮 Exemplo
 

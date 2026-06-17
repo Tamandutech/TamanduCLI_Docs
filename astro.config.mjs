@@ -40,10 +40,6 @@ export default defineConfig({
             },
             { label: 'CliMap', slug: 'cpp-integration/cli-map' }
           ]
-        },
-        {
-          label: 'Guides',
-          items: [{ label: 'Example Guide', slug: 'guides/example' }]
         }
       ]
     })

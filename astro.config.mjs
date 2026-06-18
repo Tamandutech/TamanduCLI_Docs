@@ -18,6 +18,20 @@ export default defineConfig({
       ],
       sidebar: [
         {
+          label: 'Guia do usuário',
+          items: [
+            { label: 'Visão geral', slug: 'user-guide' },
+            { label: 'Instalação', slug: 'user-guide/installation' },
+            { label: 'Conexão BLE', slug: 'user-guide/connecting' },
+            { label: 'Console', slug: 'user-guide/console' },
+            { label: 'Comandos', slug: 'user-guide/commands' },
+            { label: 'Editar parâmetros', slug: 'user-guide/edit-parameters' },
+            { label: 'Editar mapa', slug: 'user-guide/edit-map' },
+            { label: 'Monitor em tempo real', slug: 'user-guide/realtime' },
+            { label: 'Protocolo wire', slug: 'user-guide/wire-protocol' }
+          ]
+        },
+        {
           label: 'Integração C++',
           items: [
             { label: 'Visão geral', slug: 'cpp-integration/overview' },

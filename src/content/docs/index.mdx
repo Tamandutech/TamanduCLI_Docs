@@ -7,11 +7,11 @@ hero:
   image:
     file: ../../assets/houston.webp
   actions:
+    - text: Guia do usuário
+      link: /TamanduCLI_Docs/user-guide/
+      icon: right-arrow
     - text: Integração C++
       link: /TamanduCLI_Docs/cpp-integration/overview/
-      icon: right-arrow
-    - text: Primeiros passos
-      link: /TamanduCLI_Docs/cpp-integration/getting-started/
       icon: right-arrow
 ---
 
@@ -20,13 +20,13 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 ## Próximos passos
 
 <CardGrid stagger>
-	<Card title="Integração C++" icon="pencil">
-		Leia a [visão geral da integração C++](/TamanduCLI_Docs/cpp-integration/overview/) para entender os namespaces `wire` e `cli`.
+	<Card title="Guia do usuário" icon="pencil">
+		Comece pelo [guia do usuário](/TamanduCLI_Docs/user-guide/) — instalação, conexão BLE, comandos e edição de parâmetros.
 	</Card>
-	<Card title="Primeiros passos" icon="document">
-		Configure `pushMessage`, registre handlers e processe mensagens BLE recebidas.
+	<Card title="Integração C++" icon="document">
+		Leia a [visão geral da integração C++](/TamanduCLI_Docs/cpp-integration/overview/) para os namespaces `wire` e `cli` no firmware.
 	</Card>
 	<Card title="Referência da API" icon="add-document">
-		Consulte a documentação de [`wire::Protocol`](/TamanduCLI_Docs/cpp-integration/wire-protocol/) e [`cli::CliMap`](/TamanduCLI_Docs/cpp-integration/cli-map/).
+		Consulte [`wire::Protocol`](/TamanduCLI_Docs/cpp-integration/wire-protocol/) e [`cli::CliMap`](/TamanduCLI_Docs/cpp-integration/cli-map/).
 	</Card>
 </CardGrid>

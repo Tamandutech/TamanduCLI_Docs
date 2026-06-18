@@ -9,6 +9,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'TamanduCLI Docs',
+      customCss: ['./src/styles/tamandutech.css'],
       social: [
         {
           icon: 'github',

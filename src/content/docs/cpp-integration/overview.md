@@ -3,14 +3,14 @@ title: Integração C++
 description: Biblioteca C++ do dispositivo TamanduCLI para parse, emissão de mensagens e despacho de comandos no protocolo wire.
 ---
 
-A biblioteca **TamanduCLI Device C++** ajuda o firmware a lidar com o **protocolo wire** do TamanduCLI via Bluetooth (ou qualquer transporte em texto). Ela é dividida em dois namespaces:
+A biblioteca [**TamanduCLI Device C++**](https://github.com/Tamandutech/TamanduCLI_DeviceCpp) ajuda o firmware a lidar com o **protocolo wire** do TamanduCLI via Bluetooth (ou qualquer transporte em texto). Esta seção documenta essa biblioteca. Ela é dividida em dois namespaces:
 
 | Namespace | Header          | Função                                                                                           |
 | --------- | --------------- | ------------------------------------------------------------------------------------------------ |
 | `wire`    | `wprotocol.hpp` | Faz parse de mensagens recebidas, serializa comandos de saída, emite respostas single e de lista |
 | `cli`     | `cli_map.hpp`   | Registra handlers de comandos e despacha comandos parseados                                      |
 
-Ambos os headers ficam no repositório **TamanduCLI_DeviceCpp**. Inclua-os no seu projeto de firmware e linke com a biblioteca padrão C++ (`<vector>`, `<string>`, etc.).
+Inclua os headers no seu projeto de firmware e linke com a biblioteca padrão C++ (`<vector>`, `<string>`, etc.). Para obter o código-fonte, clone o repositório [TamanduCLI_DeviceCpp](https://github.com/Tamandutech/TamanduCLI_DeviceCpp).
 
 ## Recapitulação do protocolo wire
 

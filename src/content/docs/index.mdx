@@ -17,14 +17,22 @@ hero:
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
+Esta documentação é construída e publicada no repositório [TamanduCLI_Docs](https://github.com/Tamandutech/TamanduCLI_Docs). Sugestões, correções e novos conteúdos são bem-vindos — contribua via issues ou pull requests.
+
+## Repositórios
+
+- **[TamanduCLI](https://github.com/Tamandutech/TamanduCLI)** — aplicativo desktop de linha de comando (Python) para conectar, enviar comandos e interagir com dispositivos via Bluetooth.
+- **[TamanduCLI_DeviceCpp](https://github.com/Tamandutech/TamanduCLI_DeviceCpp)** — biblioteca C++ para integrar firmware com o protocolo wire do TamanduCLI.
+- **[TamanduCLI_Docs](https://github.com/Tamandutech/TamanduCLI_Docs)** — código-fonte desta documentação, publicada em [tamandutech.github.io/TamanduCLI_Docs](https://tamandutech.github.io/TamanduCLI_Docs/).
+
 ## Próximos passos
 
 <CardGrid stagger>
 	<Card title="Guia do usuário" icon="pencil">
-		Comece pelo [guia do usuário](/TamanduCLI_Docs/user-guide/) — instalação, conexão BLE, comandos e edição de parâmetros.
+		Comece pelo [guia do usuário](/TamanduCLI_Docs/user-guide/) — instalação, conexão BLE, comandos e edição de parâmetros. O guia descreve o aplicativo [TamanduCLI](https://github.com/Tamandutech/TamanduCLI).
 	</Card>
 	<Card title="Integração C++" icon="document">
-		Leia a [visão geral da integração C++](/TamanduCLI_Docs/cpp-integration/overview/) para os namespaces `wire` e `cli` no firmware.
+		Leia a [visão geral da integração C++](/TamanduCLI_Docs/cpp-integration/overview/) para os namespaces `wire` e `cli` no firmware. A integração usa a biblioteca [TamanduCLI_DeviceCpp](https://github.com/Tamandutech/TamanduCLI_DeviceCpp).
 	</Card>
 	<Card title="Referência da API" icon="add-document">
 		Consulte [`wire::Protocol`](/TamanduCLI_Docs/cpp-integration/wire-protocol/) e [`cli::CliMap`](/TamanduCLI_Docs/cpp-integration/cli-map/).

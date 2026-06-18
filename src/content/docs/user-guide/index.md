@@ -3,7 +3,7 @@ title: Guia do usuário
 description: Como usar o TamanduCLI para conectar, enviar comandos e interagir com robôs via Bluetooth.
 ---
 
-O **TamanduCLI** é um console de texto para falar com robôs e outros dispositivos embarcados que expõem o **Nordic UART Service (NUS)** em Bluetooth Low Energy.
+O **TamanduCLI** é um console de texto para falar com robôs e outros dispositivos embarcados que expõem o **Nordic UART Service (NUS)** em Bluetooth Low Energy. Este guia documenta o aplicativo disponível no repositório [TamanduCLI](https://github.com/Tamandutech/TamanduCLI).
 
 Com ele você pode:
 
@@ -46,7 +46,7 @@ Se você desenvolve firmware em C++, veja a seção [Integração C++](/TamanduC
 
 ## Arquivos gerados pela CLI
 
-Durante o uso, a CLI grava arquivos nas pastas **`output/`** e **`input/`** na raiz do repositório TamanduCLI:
+Durante o uso, a CLI grava arquivos nas pastas **`output/`** e **`input/`** na raiz do repositório [TamanduCLI](https://github.com/Tamandutech/TamanduCLI):
 
 | Pasta | Uso |
 | ----- | --- |

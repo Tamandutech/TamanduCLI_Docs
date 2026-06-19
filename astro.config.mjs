@@ -33,11 +33,14 @@ export default defineConfig({
           ]
         },
         {
-          label: 'Plugins CLI',
+          label: 'Plugins CLI Python',
           items: [
             { label: 'Visão geral', slug: 'cli-plugin' },
             { label: 'Primeiros passos', slug: 'cli-plugin/getting-started' },
-            { label: 'Registrar comandos', slug: 'cli-plugin/register-commands' },
+            {
+              label: 'Registrar comandos',
+              slug: 'cli-plugin/register-commands'
+            },
             { label: 'Ler parâmetros', slug: 'cli-plugin/read-parameters' },
             { label: 'Enviar wire', slug: 'cli-plugin/send-wire' },
             { label: 'Receber single', slug: 'cli-plugin/incoming-single' },
@@ -45,7 +48,10 @@ export default defineConfig({
             { label: 'Receber listas', slug: 'cli-plugin/receive-lists' },
             { label: 'Realtime', slug: 'cli-plugin/realtime' },
             { label: 'Arquivos', slug: 'cli-plugin/files' },
-            { label: 'Interface (prompt_toolkit)', slug: 'cli-plugin/prompt-toolkit' }
+            {
+              label: 'Interface (prompt_toolkit)',
+              slug: 'cli-plugin/prompt-toolkit'
+            }
           ]
         },
         {

@@ -33,6 +33,22 @@ export default defineConfig({
           ]
         },
         {
+          label: 'Plugins CLI',
+          items: [
+            { label: 'Visão geral', slug: 'cli-plugin' },
+            { label: 'Primeiros passos', slug: 'cli-plugin/getting-started' },
+            { label: 'Registrar comandos', slug: 'cli-plugin/register-commands' },
+            { label: 'Ler parâmetros', slug: 'cli-plugin/read-parameters' },
+            { label: 'Enviar wire', slug: 'cli-plugin/send-wire' },
+            { label: 'Receber single', slug: 'cli-plugin/incoming-single' },
+            { label: 'Enviar listas', slug: 'cli-plugin/send-lists' },
+            { label: 'Receber listas', slug: 'cli-plugin/receive-lists' },
+            { label: 'Realtime', slug: 'cli-plugin/realtime' },
+            { label: 'Arquivos', slug: 'cli-plugin/files' },
+            { label: 'Interface (prompt_toolkit)', slug: 'cli-plugin/prompt-toolkit' }
+          ]
+        },
+        {
           label: 'Integração C++',
           items: [
             { label: 'Visão geral', slug: 'cpp-integration/overview' },
